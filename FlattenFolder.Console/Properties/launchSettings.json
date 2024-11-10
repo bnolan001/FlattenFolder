@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FlattenFolder.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "-s C:\\Users\\slick\\Pictures22 -d C:\\Users\\slick\\Downloads\\Pictures -v"
+    }
+  }
+}
