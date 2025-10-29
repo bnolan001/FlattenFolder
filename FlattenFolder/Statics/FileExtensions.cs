@@ -7,7 +7,7 @@
 
         public static string[] VideoExtensions = new string[] { "mp4", "mpg", "avi", "mov", "mkv" };
 
-        public static string[] OfficeDocumentExtnsions = new string[] { "doc", "docx", "docm", "xls", "xlsx", "xlsm", 
+        public static string[] OfficeDocumentExtensions = new string[] { "doc", "docx", "docm", "xls", "xlsx", "xlsm", 
             "ppt", "pptx", "pptm", "dotx", "dotm", "odp", "ods", "odg", "odt", "odf" };
 
         public static string[] AudioExtensions = new string[] { "mp3", "wav", "wma", "ogg", "flac", "aac", "m4a", "aiff" };

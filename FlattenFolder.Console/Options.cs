@@ -6,13 +6,13 @@ namespace FlattenFolder.Console
     public class Options
     {
         [Option('s', "source", Required = true, HelpText = "Source folder path")]
-        public string SourceFolderPath { get; set; }
+        public required string SourceFolderPath { get; set; }
 
         [Option('d', "destination", Required = true, HelpText = "Destination folder path")]
-        public string DestinationFolderPath { get; set; }
+        public required string DestinationFolderPath { get; set; }
 
         [Option('e', "extensions", Required = false, HelpText = "File extensions to search for")]
-        public string FileExtensions { get; set; }
+        public string? FileExtensions { get; set; }
 
         [Option('i', "image", Required = false, HelpText = "Search for image files")]
         public bool ImageExtensions { get; set; } = false;
