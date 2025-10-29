@@ -3,9 +3,9 @@
     public class FileExtensions
     {
         public static string[] ImageExtensions = new string[] { "jpg", "jpeg", "png", "tiff", "bmp", "tif", "gif", 
-            "webp", "avif", "raw", "svg", "cr2", "nef" };
+            "webp", "avif", "raw", "svg", "cr2", "wmf", "nef" };
 
-        public static string[] VideoExtensions = new string[] { "mp4", "mpg", "avi", "mov", "wmf", "mkv" };
+        public static string[] VideoExtensions = new string[] { "mp4", "mpg", "avi", "mov", "mkv" };
 
         public static string[] OfficeDocumentExtnsions = new string[] { "doc", "docx", "docm", "xls", "xlsx", "xlsm", 
             "ppt", "pptx", "pptm", "dotx", "dotm", "odp", "ods", "odg", "odt", "odf" };
